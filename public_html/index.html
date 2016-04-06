@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Bootstrap2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+        <section class="hero-unit">
+            <div class="container">
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+
+                        <a href="#" class="brand">Brand</a>  
+                        <div class="nav-collapse collapse">
+
+                            <ul class="nav">
+                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="#process">Article</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#widgets">Info</a></li>
+                                <!--                   <li><a href="#">Contact US</a></li>--> 
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div id="bannerCarusel" class="caruselBanner slide">
+                    <div class="carousel-inner">
+                        <div class="active item">
+                            <div class="hero-unit-inner text-center">
+                                <h1>Create your meal in one click !!!</h1>
+                                <h4>Select your .. !!!</h4>
+                                <a href="#" class='btn  btn-primary btn-large popup__toggle' >Get started</a>
+                                <a href="#"  >Learn More</a>
+
+                            </div>  
+                        </div>
+
+
+                        <div class="item">
+                            <div class="hero-unit-inner text-center">
+                                <h1>Select your favorite food !!</h1>
+                                <h4>jhgjgjgj!!</h4>
+                                <a href="#" class='btn  btn-primary btn-large popup__toggle' >Get started</a>
+                                <a href="#" >Learn More</a>
+                            </div>  
+                        </div>
+                        <div class="item">
+                            <div class="hero-unit-inner text-center">
+                                <h1>Liern abauth health!!</h1>
+                                <h4>jhgjgjgj!!</h4>
+                                <a href="#" class='btn  btn-primary btn-large popup__toggle' >Get started</a>
+                                <a href="#" >Learn More</a>
+                            </div>  
+                        </div>
+                    </div> 
+                    <a class="carousel-control left" href="#bannerCarusel" data-slide="prev">&lsaquo;</a>
+                    <a class="carousel-control right" href="#bannerCarusel" data-slide="next">&rsaquo;</a>
+                </div>
+            </div>
+        </section>
+        <!-- section recept-->
+        <section id="food">
+            <form>
+                <div class="popup__overlay">
+                    <div class="popup">
+                        <!-- <a href="#" class="popup__close">X</a> -->
+                        <h2>Welcome!</h2>
+                        <p>Please enter your parametrs</p>
+
+                        <div class="popup-form__row">
+
+                            <div class="checkbox">
+                                <label class="checkbox-inline cek"><input type="checkbox" value="">Zupas</label>
+                                <label class="checkbox-inline cek"><input type="checkbox" value="">Salāti</label>
+                                <label class="checkbox-inline cek"><input type="checkbox" value="">Gaļas ēdieni</label> <br>
+                                <label class="checkbox-inline cek"><input type="checkbox" value="">Zivju ēdieni</label>
+                                <label class="checkbox-inline cek"><input type="checkbox" value="">Veģetāriešu ēdieni</label>
+                                <label class="checkbox-inline cek"><input type="checkbox" value="">Saldie ēdieni</label> <br>
+                                <label class="checkbox-inline cek"><input type="checkbox" value="">Dzērieni</label>
+                                <label class="checkbox-inline cek"><input type="checkbox" value="">Putras</label>
+                                <label class="checkbox-inline cek"><input type="checkbox" value="">Uzkodas</label>
+                            </div>
+                            <div class="popup-form__row">
+                                <div class="form-group">
+                                    <label for="sel1">Pagatavošanas laiks (min):</label>
+                                    <select class="form-control" id="sel1">
+                                        <option>~ 5</option>
+                                        <option>~ 15</option>
+                                        <option>~ 30</option>
+                                        <option>~ 45</option>
+                                        <option>~ 60</option>
+                                        <option>~ 60 and more ... </option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div class="popup-form__row">
+                                <label for="sel1">Sastāvdaļas kuras negribat redzēt (Mutiple select list (hold shift to select more than one):</label>
+                                <select multiple="multiple">
+                                    <option>krējums</option>
+                                    <option>sīpoli</option>
+                                    <option>pipari</option>
+                                    <option>eļļa</option>
+                                    <option>ķiploki</option>
+                                </select>
+                            </div>
+                            <input type="button" value="calculate" />
+                            <input type="button" value="random" />
+                            <input type="reset" value="reset" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <!--end -->
+
+        <section id='process'>
+            <div class='container'>
+                <div class="row">
+                    <div class="point hidden-phone">&nbsp;</div>
+                    <div class="span3">
+                        <div class='plan text-center'>
+                            <span class='progress-icon diet'>&nbsp;</span>
+                            <h4 class="heading">Diet</h4>
+                            <p>Using the second approach opens the href 
+                                in my current (parent) window too. i.e. my 
+                                current window and new window both points to href value.
+                                I don’t want my parent window to be changed
+                            </p>
+                            <!--    <a href="http://chriscoyier.net" target="_blank" class='btn'>Go</a> -->
+                        </div>
+                    </div>
+                    <div class="span3">
+                        <div class='design text-center'>
+                            <span class='progress-icon isue'>&nbsp;</span>
+                            <h4 class="heading">Isue</h4>
+                            <p>Using the second approach opens the href 
+                                in my current (parent) window too. i.e. my 
+                                current window and new window both points to href value.
+                                I don’t want my parent window to be changed
+                            </p>
+                            <!--  <a href="#" class='btn'>Go</a> -->
+                        </div>
+                    </div>
+                    <div class="span3">
+                        <div class='develop text-center'>
+                            <span class='progress-icon health'>&nbsp;</span>
+                            <h4 class="heading">Health</h4>
+                            <p>Using the second approach opens the href 
+                                in my current (parent) window too. i.e. my 
+                                current window and new window both points to href value.
+                                I don’t want my parent window to be changed
+                            </p>
+                            <!-- <a href="#" class='btn'>Go</a> -->
+                        </div>
+                    </div>
+                    <div class="span3">
+                        <div class='launch text-center'>
+                            <span class='progress-icon vitamin'>&nbsp;</span>
+                            <h4 class="heading">Vitamins</h4>
+                            <p>Using the second approach opens the href 
+                                in my current (parent) window too. i.e. my 
+                                current window and new window both points to href value.
+                                I don’t want my parent window to be changed
+                            </p>
+                            <!--  <a href="#" class='btn'>Go</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <section id='portfolio'>
+            <div class='container'>
+                <div class='row'>
+                    <div class='span3'>
+                        <div class="p-item"> 
+                            <h4>Portfolio</h4>
+                            <p>Check out our portfolio..</p>
+                            <a id="p">Our Portfolio</a>
+                        </div>
+                    </div>
+                    <div class='span3'>
+                        <div class="text-center">
+                            <img src='img/f5 copy.jpg' alt=""/>
+                            <h5 class="title">Portfolio</h5>
+                            <small class="category">trthythty</small>
+                        </div>
+                    </div>
+                    <div class='span3'>
+                        <div class="p-item"> 
+                            <div class="text-center">
+                                <img src='img/f2 copy.jpg' alt=""/>
+                                <h5 class="title">Portfolio</h5>
+                                <small class="category">trthythty</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='span3'>
+                        <div class="p-item"> 
+                            <div class="text-center">
+                                <img src='img/f3 copy.jpg' alt=""/>
+                                <h5 class="title">Portfolio</h5>
+                                <small class="category">trthythty</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="test">
+                    <div class="thumbnails" align="center">
+                        <img onmouseover="preview.src = img1.src" name="img1" src="img/meat.jpg" alt=""/>
+                        <img onmouseover="preview.src = img2.src" name="img2" src="img/pancake.jpg" alt=""/>
+                        <img onmouseover="preview.src = img3.src" name="img3" src="img/f4 copy.jpg" alt=""/>
+                        <img onmouseover="preview.src = img4.src" name="img4" src="img/burger.jpg" alt=""/>
+                        <img onmouseover="preview.src = img5.src" name="img5" src="img/meat.jpg" alt=""/>
+                    </div><br/>
+
+                    <div class="preview" align="center">
+                        <img name="preview" src="img/meat.jpg" alt=""/>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="partners">
+            <div class="container">
+                <div class="row">
+                    <div class="span3 text-center">
+                        <img src="img/d2 copy.jpg" alt="partner-1" />
+                    </div>
+                    <div class="span3 text-center">
+                        <img src="img/d3 copy.jpg" alt="partner-1" />
+                    </div>
+                    <div class="span3 text-center">
+                        <img src="img/d6 copy.jpg" alt="partner-1" />
+                    </div>
+                    <div class="span3 text-center">
+                        <img src="img/d5 copy.jpg" alt="partner-1" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="widgets">
+            <div class="container">
+                <div class="row">
+                    <div class="span4">
+
+                        <div class="testimonials">
+                            <h4 class="heading">Testimonials</h4>
+                            <!--
+                                                       <div id="testimonialsCarusel" class="caruselTestimonials slide">
+                                                           <div id="carousel-inner">
+                                                               <div class="active item">
+                                                                   <img src="img/beats.jpg" class="pull-left" alt="partner-1" />
+                                                                   <blockquote >
+                                                                       <p>kfjeerfrefrefrefreferwfwer
+                                                                           ewfewrferwfrewf    
+                                                                           werfewfewrfewfewr
+                                                                           wrwwewtwer
+                                                                           wrtwrtewrt
+                                                                       </p>
+                                                                       <cite>
+                                                                           <strong>  9gag</strong><br/>
+                                                                           <a href="#">ww.9gag.com</a>
+                                                                       </cite>
+                                                                   </blockquote>
+                                                               </div>
+                                                               <div class="item">
+                                                                   <img src="img/burger.jpg" class="pull-left" alt="partner-1" />
+                                                                   <blockquote >
+                                                                       <p>kfjeerfrefrefrefreferwfwer
+                                                                           ewfewrferwfrewf    
+                                                                           werfewfewrfewfewr
+                                                                           wrwwewtwer
+                                                                           wrtwrtewrt
+                                                                       </p>
+                                                                       <cite>
+                                                                           <strong>  9gag</strong><br/>
+                                                                           <a href="#">ww.9gag.com</a>
+                                                                       </cite>
+                                                                   </blockquote>
+                                                               </div>
+                                                               <div class="item">
+                                                                   <img src="img/beats.jpg" class="pull-left" alt="partner-1" />
+                                                                   <blockquote >
+                                                                       <p>kfjeerfrefrefrefreferwfwer
+                                                                           ewfewrferwfrewf    
+                                                                           werfewfewrfewfewr
+                                                                           wrwwewtwer
+                                                                           wrtwrtewrt
+                                                                       </p>
+                                                                       <cite>
+                                                                           <strong>  9gag</strong><br/>
+                                                                           <a href="#">ww.9gag.com</a>
+                                                                       </cite>
+                                                                   </blockquote>
+                                                               </div>
+                                                           </div>
+                           
+                           
+                                                       </div>
+                            -->
+                            <div id="bannerCarusel" class="caruselBanner slide">
+                                <div class="carousel-inner">
+                                    <div class="active item">
+                                        <img src="img/burger.jpg" class="pull-left" alt="partner-1" />
+                                        <blockquote >
+                                            <p>kfjeerfrefrefrefreferwfwer
+                                                ewfewrferwfrewf    
+                                                werfewfewrfewfewr
+                                                wrwwewtwer
+                                                wrtwrtewrt
+                                            </p>
+                                            <cite>
+                                                <strong>  9gag</strong><br/>
+                                                <a href="#">ww.9gag.com</a>
+                                            </cite>
+                                        </blockquote>
+                                    </div>
+
+
+                                    <div class="item">
+                                        <img src="img/burger.jpg" class="pull-left" alt="partner-1" />
+                                        <blockquote >
+                                            <p>kfjeerfrefrefrefreferwfwer
+                                                ewfewrferwfrewf    
+                                                werfewfewrfewfewr
+                                                wrwwewtwer
+                                                wrtwrtewrt
+                                            </p>
+                                            <cite>
+                                                <strong>  9gag</strong><br/>
+                                                <a href="#">ww.9gag.com</a>
+                                            </cite>
+                                        </blockquote>
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/burger.jpg" class="pull-left" alt="partner-1" />
+                                        <blockquote >
+                                            <p>kfjeerfrefrefrefreferwfwer
+                                                ewfewrferwfrewf    
+                                                werfewfewrfewfewr
+                                                wrwwewtwer
+                                                wrtwrtewrt
+                                            </p>
+                                            <cite>
+                                                <strong>  9gag</strong><br/>
+                                                <a href="#">ww.9gag.com</a>
+                                            </cite>
+                                        </blockquote>
+
+                                    </div>
+                                </div> 
+                                <!--     <a class="carousel-control left" href="#bannerCarusel" data-slide="prev">&lsaquo;</a>
+                                     <a class="carousel-control right" href="#bannerCarusel" data-slide="next">&rsaquo;</a> -->
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="span4">
+                        <div class="blog">
+                            <h4 class="heading">Latest</h4>
+                            <ul class="blog-lists">
+                                <li>
+                                    <h5><a href="#">This is how we do it.....</a></h5>
+                                    <small>June 4 | 2016 | Posted by <a href="#">Admin</a></small>
+                                </li>
+                                <li>
+                                    <h5><a href="#">This is how we do it.....</a></h5>
+                                    <small>June 4 | 2016 | Posted by <a href="#">Admin</a></small>
+                                </li>
+                                <li>
+                                    <h5><a href="#">This is how we do it.....</a></h5>
+                                    <small>June 4 | 2016 | Posted by <a href="#">Admin</a></small>
+                                </li>
+                                <li>
+                                    <h5><a href="#">This is how we do it.....</a></h5>
+                                    <small>June 4 | 2016 | Posted by <a href="#">Admin</a></small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="tweets">
+                            <h4 class="heading">Raksti</h4>
+                            <ul class="tweets-list">
+                                <li class="clearfix">
+                                    <img src="img/84.jpg" class="pull-left" width="50" height="50" alt="partner-1" />
+                                    <p>SJOjfosdjfsdjfsdo<a href="#">google.lv</a>
+                                </li>
+                                <li class="clearfix">
+                                    <img src="img/84.jpg" class="pull-left" width="50" height="50" alt="partner-1" />
+                                    <p>SJOjfosdjfsdjfsdo<a href="#">google.lv</a>
+                                </li>
+                                <li class="clearfix">
+                                    <img src="img/84.jpg" class="pull-left" width="50" height="50" alt="partner-1" />
+                                    <p>SJOjfosdjfsdjfsdo<a href="#">google.lv</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="span12 text-center">
+                        <nav class="table" >
+                            <ul class="footer-links" >
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Article</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Info</a></li>
+
+                            </ul>
+                        </nav> 
+                        <div id="social">
+                            <a href="#" class="btn twitter"><span class="social-sprite twitter">&nbsp;</span>Follow me</a>
+                            <a href="#" class="btn facebook"><span class="social-sprite twitter">&nbsp;</span>Follow me</a>
+                        </div>
+                        <small>&copy;<strong> <a href="#">Erix2323</a></strong></small>
+                        <!-- css3 -->
+                        <p id="lable">
+                            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                                <img style="border:0;width:88px;height:31px"
+                                     src="http://jigsaw.w3.org/css-validator/images/vcss"
+                                     alt="Valid CSS!" />
+                            </a>
+                        </p>
+
+                        <!--  -->
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script>
+                            /* */ $(function () {
+                                $('.caruselBanner').carousel();
+                                $('.caruselTestimonials').carousel();
+                            });
+                            $(function () {
+                                smoothScroll(1000);
+
+                            });
+
+// smoothScroll function is applied from the document ready function
+                            function smoothScroll(duration) {
+                                $('a[href^="#"]').on('click', function (event) {
+
+                                    var target = $($(this).attr('href'));
+
+                                    if (target.length) {
+                                        event.preventDefault();
+                                        $('html, body').animate({
+                                            scrollTop: target.offset().top
+                                        }, duration);
+                                    }
+                                });
+                            }
+                            /*
+                             $(document).ready(function () {
+                             $("#test").hide();
+                             $("#p").click(function () {
+                             $("#test").show('slow');
+                             
+                             });
+                             });*/
+
+
+
+
+
+                            p = $('.popup__overlay');
+                            $('.popup__toggle').click(function () {
+                                p.css('display', 'block');
+                            });
+                            p.click(function (event) {
+                                e = event || window.event;
+                                if (e.target === this) {
+                                    $(p).css('display', 'none');
+                                }
+                            });
+                            $('.popup__close').click(function () {
+                                p.css('display', 'none');
+                            });
+
+
+
+
+
+                            $(document).ready(function () {
+                                $("#test").hide();
+                                $("#p").click(function () {
+                                    if ($('#test').is(":hidden")) {
+                                        $('#test').slideDown('slow');
+                                    } else {
+                                        $('#test').slideUp('slow');
+
+
+                                    }
+                                });
+
+                            });
+        </script>
+
+        <?php
+        include 'food.php';
+
+        ?>
+    </body>
+</html>
